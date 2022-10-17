@@ -6,7 +6,7 @@
  * main - Determune if a random number is ositive or negative
  * Retyrn: 0 on success
  */
-int main (void)
+int main(void)
 {
 	int n;
 
