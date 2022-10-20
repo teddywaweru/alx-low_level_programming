@@ -1,32 +1,29 @@
 #include "main.h"
 
-/*
- * 2-largest_number - Get the largest number from a selection of three options
- * Returns: int - largest_number
+/**
+ * largest_number - returns the largest of 3 numbers
+ * @a: first integer
+ * @b: second integer
+ * @c: third integer
+ * Return: largest number
  */
 
 int largest_number(int a, int b, int c)
 {
-  //comparing numbers...
-  //1. Check largest b2n a & b.
-  //1.1.Check larget between 1 & c.
-  //
+	int largest;
 
-  if ( a < b )
-  {
-    largest = a;
-  }
-  else
-  {
-    largest = b;
-  }
-  if  (largest > c)
-  {
-    continue;
-  }
-  else
-  {
-    largest = c;
-  }
-  return (largest);
+	if (a >= b && a > c)
+	{
+		largest = a;
+	}
+	else if (b >= a && b > c)
+	{
+		largest = b;
+	}
+	else
+	{
+		largest = c;
+	}
+
+	return (largest);
 }
