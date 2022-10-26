@@ -8,7 +8,7 @@
 
 void rev_string(char *s)
 {
-	char *string_bak = *s;
+	char *string_bak = s;
 	char store[1000];
 	short idx = 0;
 
@@ -19,7 +19,7 @@ void rev_string(char *s)
 		idx++;
 	}
 	idx = 0;
-	while (s > t)
+	while (s > string_bak)
 	{
 		s--;
 		*s = store[idx];
