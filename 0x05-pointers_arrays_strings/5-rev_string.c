@@ -12,7 +12,7 @@ void rev_string(char *s)
 	char store[1000];
 	short idx = 0;
 
-	while (*s != '\n')
+	while (*s != '\0')
 	{
 		store[idx] = *s;
 		s++;
