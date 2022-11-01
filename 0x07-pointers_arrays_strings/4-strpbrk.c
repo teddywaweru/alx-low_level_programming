@@ -24,7 +24,7 @@ char *_strpbrk(char *s, char *accept)
 		s++;
 	}
 	return (NULL);
-}/char *_strbrk(char *s, char *accept)
+}
 //{
 //	while (s != '\0')
 //	{
