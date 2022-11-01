@@ -8,9 +8,6 @@
  */
 char *_strstr(char *haystack, char *needle)
 {
-	// iterate through haystack searching for needle
-	// initialize haystack index pointer
-	// check if char are similar, iterate unless end of needle, or pattern ends
 	char *result = haystack, *fneedle = needle;
 
 		while (*haystack)
