@@ -8,7 +8,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	unsigned int i;
+	unsigned int i = 0;
 	char *t = accept;
 	
 	while (*s++)
@@ -25,4 +25,5 @@ unsigned int _strspn(char *s, char *accept)
 			break;
 		accept = t;
 	}
+	return (c);
 }
