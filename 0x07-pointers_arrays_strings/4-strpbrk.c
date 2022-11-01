@@ -25,18 +25,3 @@ char *_strpbrk(char *s, char *accept)
 	}
 	return (NULL);
 }
-//{
-//	while (s != '\0')
-//	{
-//		while (accept != '\0')
-//		{
-//			if (s == accept)
-//			{
-//				return (s);
-//			}
-//		accept++;
-//		}
-//		s++;
-//	}
-//	return (0);
-//}
