@@ -1,3 +1,3 @@
 #include <stdio.h>
 
-_putschar(char *s);
+_putschar(char s);
