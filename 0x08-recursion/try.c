@@ -8,13 +8,14 @@ void do_sth(char *s)
 	{
 		
 		i++;
-		printf("%d", *s);
+		printf("%s", ++s);
+		printf("\n");
 	}
 }
 
 int main()
 {
-	do_sth("some_string.");
+	do_sth("some_striefnoening.");
 	return (0);
 }
 
