@@ -7,8 +7,6 @@
  * Returns: None
  */
 void print_dog(struct dog *d) {
-  char *name, *owner;
-  int age;
 
   if (d != NULL) {
     printf("Name: %s/nAge: %f\nOwner: %s", d->name == NULL ? "(nil)" : d->name,
