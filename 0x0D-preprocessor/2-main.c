@@ -6,4 +6,6 @@
 int main() {
   printf("%s", FILENAME);
   printf("\n");
+
+  return (0);
 }
