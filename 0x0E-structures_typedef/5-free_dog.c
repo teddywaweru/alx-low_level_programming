@@ -15,3 +15,4 @@ void free_dog(struct dog *d) {
     free(d);
   }
 }
+int main() { return (0); }
