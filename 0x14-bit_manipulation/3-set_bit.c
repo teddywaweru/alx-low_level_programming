@@ -8,7 +8,7 @@
  *
  * Returns 1 i successful else -1
  */
-int set_bit(unsigned long int *n, unsigned long int index) {
+int set_bit(unsigned long int *n, unsigned int index) {
   // if index is larger than 63
   // bit shift decimal by index
   // if binary & 1 return 1

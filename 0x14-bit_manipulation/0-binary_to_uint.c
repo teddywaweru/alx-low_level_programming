@@ -25,7 +25,7 @@ unsigned int _pow(unsigned int num, unsigned int n) {
  *
  * Return: The converted number or 0
  */
-unsigned int binary_to_uint(char *b) {
+unsigned int binary_to_uint(const char *b) {
   unsigned int decimal, i, k;
 
   decimal = 0;
